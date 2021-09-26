@@ -8,7 +8,7 @@ var zahirr = db.get("zahirr");
 	console.log('')  
 }
  
-var creator = "@mario_us"
+var creator = "@azkan_e"
 var secure = require('ssl-express-www');
 var cors = require('cors');
 var fetch = require('node-fetch');
@@ -165,7 +165,7 @@ loghandler = {
     error: {
         status: false,
         creator: `${creator}`,
-        message: 'emror bruh'
+        message: 'mengerror'
     }
 }
 
@@ -175,7 +175,7 @@ Akhir Pesan Error
 
 router.use(favicon(__path + "/views/favicon.ico"));
 
-const listkey = ["Kuv-Api", "mariogans"];
+const listkey = ["Kuv-Api", "SHxin"];
 
 router.post("/apikey", async (req, res, next) => {
   const key = req.query.key;
